@@ -495,7 +495,7 @@ export class ChatScreen extends Component {
         });
         console.log("mediaMessage: ", mediaMessage); 
         
-        CometChat.sendMessage(mediaMessage)
+        CometChat.sendMediaMessage(mediaMessage)
         .then(message => {
             console.log('cometchat send media message', message);
             this.setState((state) => {
