@@ -31,14 +31,6 @@ Before proceeding, make sure the latest version of Node.js and npm are installed
 
 If you are new to React native or do not have react native already setup on your system, please visit the <a href="https://facebook.github.io/react-native/docs/getting-started" target="_blank">React native getting started</a> documentation before configuring app.
 
-## Make CometChat Pro JavaScript SDK Compatible with React Native
-
-We have injected two components from sample app to make Java script SDK compatible with React Native the components are as follows:
-1] DOMParser
-2] base-64 encode and decode
-
-This is done in LoginScreen.js file in src folder. Here base-64 can be injected globally but DomParser needs to be injected only after CometChat.init().
-
 ## Config-App
 
 <h2> v2.0+ </h2>
